@@ -54,8 +54,13 @@ Here we have `business objects` or `entities` and should represent and encapsula
    Make sure to explicitly export these variables when running locally to sign download urls else the app will break
 
    ```sh
-   export GOOGLE_APPLICATION_CREDENTIALS="path/to/key.json"
-   export IS_LOCAL="true"
+   export POSTGRES_USER=""
+   export POSTGRES_PASSWORD=""
+   export POSTGRES_SERVER=""
+   export POSTGRES_PORT=
+   export POSTGRES_DB=""
+   export PROJECT_NAME="" 
+   export PROJECT_VERSION="" 
    ```
 5. Run the server:
    ```sh
